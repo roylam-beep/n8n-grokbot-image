@@ -1,4 +1,4 @@
-FROM docker.io/n8nio/n8n:2.37.11
+FROM docker.io/n8nio/n8n:2.40.1
 
 USER root
 COPY patch-advanced-permissions.js /usr/local/bin/patch-advanced-permissions.js
