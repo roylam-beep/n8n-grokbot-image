@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/n8n-grokbot:2.41.5-admin
-            ghcr.io/${{ github.repository_owner }}/n8n-grokbot:2.41.5-admin-${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/n8n-grokbot:2.41.6-admin
+            ghcr.io/${{ github.repository_owner }}/n8n-grokbot:2.41.6-admin-${{ github.sha }}
